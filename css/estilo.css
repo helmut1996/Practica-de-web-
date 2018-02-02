@@ -3,16 +3,17 @@ body{
     min-height: 100vh;
 }
 header{
-    margin-left: 30%;
-    width: 30%;
+    margin-left: 39%;
+    width: 35%;
     max-width: 30%;
+    font-family: cursive;
 }
 figure,img{
     width: 250px;
     height: 300px;
     margin-left: 28%;
     padding: 10px;
-    border-radius: 10%;
+    border-radius: 50%;
 }
 figure{
     width: 30%;
@@ -21,7 +22,7 @@ figure{
 #caja1{
     border: solid 1px;
     width: 35%;
-  margin-left: 25%; 
+  margin-left: 30%; 
     padding: 5px;
     margin-top: 5%;
     background-color: orange;
@@ -29,22 +30,23 @@ figure{
 }
 .p1{
     margin-left: 10px;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 .p2{
     margin-left: 15px;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 h2{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 h3{
    text-align: center;
 }
 #caja2{
-    margin-left:25%; 
+    margin-left:30%; 
     border: solid 1px;
     width: 35%;
     margin-top: 5%;
@@ -58,7 +60,7 @@ footer{
     background-color: dimgray;
     width: 100%;
     color: white;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
  line-height: 5;
  text-align: center;   
 }
@@ -96,4 +98,20 @@ transition: border-bottom .7s;
     max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
+}
+.boton{
+    padding-top:50px; 
+    margin-left: 40%;
+}
+.boton input{
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    background: orange;
+}
+ a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 10px;
 }
