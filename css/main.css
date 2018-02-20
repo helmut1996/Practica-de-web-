@@ -1,0 +1,9 @@
+.slaider{
+background-image: url(../img/luffy2.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+}
+.color{
+color: white;
+}
