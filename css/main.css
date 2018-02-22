@@ -12,6 +12,11 @@ color: white;
     background-image: url(../img/luffy2.jpg);
     background-size: cover;
 }
-.jumbotron{
+.login-form{
     background: rgba(0, 0, 0, 0.5);
+    margin-top: 60px;
+    box-shadow: 0px 0px 10px 1px gray;
+    border-radius: 5px;
+    padding-bottom: 20px;
+
 }
