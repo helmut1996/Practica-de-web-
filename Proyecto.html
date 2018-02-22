@@ -1,78 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+    crossorigin="anonymous">
   <link rel="stylesheet" href="css/main.css">
-  </head>
-  <body>
-    
-<section class=" container-fluid slaider d-flex justify-content-center align-items-center">
+  <link rel="icon" href="img/bandera.ico">
+</head>
+
+<body>
+  <!--seccion de imagen de inicio-->
+  <section class=" container-fluid slaider d-flex justify-content-center align-items-center">
     <h1 class="display-1 color">One piece!</h1>
   </section>
-  
+
+  <!--Inicio del menu de navegacion-->
   <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm">
-      <button class="navbar-toggler  navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      <a class="navbar-brand" href="#">
-          <img src="img/bandera.ico" width="30" height="30" class="d-inline-block align-top" alt="">
-          One piece
-        </a>
-        <div>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-         <div class="navbar-nav  text-center">
-            <a class="nav-item nav-link active" href="#">Inicio</a>
-            <a class="nav-item nav-link" href="#">Capitulos</a>
-            <a class="nav-item nav-link" href="#">Peliculas</a>
-            <a class="nav-item nav-link" href="#">Personajes</a>
-          </div>
-          <div class="d-flex flex-row justify-content-center ">
-            <a href="https://www.facebook.com/" class="">
-              <img src="img/fb.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-            </a>
-            <a href="https://www.youtube.com/?hl=es-419" class="">
-              <img src="img/youtube.jpg" width="30" height="30" class="d-inline-block align-top" alt="">
-            </a>
-          </div>
-       </div>
+    <button class="navbar-toggler  navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <a class="navbar-brand" href="#">
+      <img src="img/bandera.ico" width="30" height="30" class="d-inline-block align-top" alt=""> One piece
+    </a>
+    <div>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="navbar-nav  text-center">
+          <a class="nav-item nav-link active" href="#">Inicio</a>
+          <a class="nav-item nav-link" href="#">Capitulos</a>
+          <a class="nav-item nav-link" href="#">Peliculas</a>
+          <a class="nav-item nav-link" href="#">Personajes</a>
+          <a class="nav-item nav-link" href="login.html">Login</a>
         </div>
-    </nav>
+        </div>
+  </nav>
+  <!--fin del menu-->
+  <!-- card-->
+  <div class="container">
+    <div class="card-deck mt-5 pt-5">
+      <div class="card">
+        <img class="card-img-top img-fluid" src="img/card1.jpg" alt="Mokey D Luffy">
+        <div class="card-body">
+          <h5 class="card-title">Mokey D Luffy</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a
+            little bit longer.</p>
+          <a href="#" class="btn btn-primary">Detalles</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="img/card2.jpg" alt="Roronoa Zoro">
+        <div class="card-body">
+          <h5 class="card-title">Roronoa Zoro</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <a href="#" class="btn btn-primary">Detalles</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="img/card3.jpg" alt="Vinsmoke Sanji">
+        <div class="card-body">
+          <h5 class="card-title">Vinsmoke Sanji</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even
+            longer content than the first to show that equal height action.</p>
+          <a href="#" class="btn btn-primary">Detalles</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- fin card -->
+  <!--Jombotron-->
+  <div class="container">
+    <div class="jumbotron mt-5 pt-5">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+      <hr class="my-4">
+      <div class="d-flex justify-content-between align-items-center">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button">Informacion</a>
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- fin-->
+  <!--Formulario-->
+<section class="container my-5">
+  <h3 class="text-center text-uppercase">Formulario</h3>
+  <p class="text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum qui esse culpa. Sapiente excepturi veritatis dolorum, sunt expedita a, adipisci minima architecto consequuntur dolores porro pariatur ducimus non nostrum.</p>
+
+<form action="" class="form-inline justify-content-center flex-column flex-md-row">
+<div class="form-group my-2">
+  <label for="" class="mx-2">Nombre:</label>
+  <input type="text" placeholder="Ingrese su nombre" class="form-control">
+</div>
+<div class="form-group my-2">
+ <label for="" class="mx-2">Email:</label>
+ <input type="email" placeholder="@correo" class="form-control">
+</div>
+<div class="form-group mx-2 my-2 "> 
+  <input type="submit" class="bnt btn-danger">
+</div>
+</form>
+</section>
+  <!--fin formulario-->
+  <!-- texto -->
   <section class="container ">
-    <p class="mt-5 text-center text-uppercase font-weight-bold font-italic ">One piece</p>
-    <p class="mt-5" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nostrum rem voluptate quidem quia deserunt sequi omnis eaque voluptatum, modi nemo iste suscipit, inventore quibusdam. Numquam magni debitis odio incidunt!
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, ratione exercitationem. Fugit possimus numquam sunt vero velit! Consectetur ducimus aliquid provident officiis veritatis, laudantium non maxime, similique accusantium a placeat?
+    <p class="mt-5 text-center text-uppercase font-weight-bold font-italic  display-4">One piece</p>
+    <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti. Lorem ipsum
+      dolor sit amet consectetur adipisicing elit. Rerum nostrum rem voluptate quidem quia deserunt sequi omnis eaque voluptatum,
+      modi nemo iste suscipit, inventore quibusdam. Numquam magni debitis odio incidunt! Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Est, ratione exercitationem. Fugit possimus numquam sunt vero velit! Consectetur ducimus aliquid
+      provident officiis veritatis, laudantium non maxime, similique accusantium a placeat?
     </p>
-    <p class=" bg-primary text-white text-justify w-25 float-left mr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.
-      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis eum voluptatibus quas odit accusamus dolor ullam quam maxime consequatur amet hic voluptatem eaque quibusdam odio, praesentium deserunt! Consectetur, eos assumenda.
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta atque quod fuga vel tempore hic saepe corrupti, officiis alias animi aliquam illo aperiam totam quae, inventore ratione fugit debitis ipsam!
+    <p class=" bg-primary text-white text-justify w-25 float-left mr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti. Lorem ipsum
+      dolor sit, amet consectetur adipisicing elit. Debitis eum voluptatibus quas odit accusamus dolor ullam quam maxime
+      consequatur amet hic voluptatem eaque quibusdam odio, praesentium deserunt! Consectetur, eos assumenda. Lorem ipsum
+      dolor sit amet, consectetur adipisicing elit. Dicta atque quod fuga vel tempore hic saepe corrupti, officiis alias
+      animi aliquam illo aperiam totam quae, inventore ratione fugit debitis ipsam!
     </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+      id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
   </section>
 
-    <!-- jQuery first, then Tether, then Bootstrap JS. -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  </body>
+  <!-- jQuery first, then Tether, then Bootstrap JS. -->
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
