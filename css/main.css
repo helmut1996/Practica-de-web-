@@ -11,6 +11,7 @@ color: white;
 .cuerpo{
     background-image: url(../img/luffy2.jpg);
     background-size: cover;
+    height: 100vh;
 }
 .login-form{
     background: rgba(0, 0, 0, 0.5);

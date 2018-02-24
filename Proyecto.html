@@ -15,34 +15,36 @@
 
 <body>
   <!--seccion de imagen de inicio-->
- <!-- <section class=" container-fluid slaider d-flex justify-content-center align-items-center">
+  <!-- <section class=" container-fluid slaider d-flex justify-content-center align-items-center">
     <h1 class="display-1 color">One piece!</h1>
   </section>-->
-  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <img class="d-block img-fluid" src="img/One_Piece.png" width="1360" alt="First slide">
+  <div class="row">
+    <div id="carouselExampleIndicators" class="carousel slide col-sm-12 col-md-12 " data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner " role="listbox">
+        <div class="carousel-item active">
+          <img class="d-block img-fluid  " src="img/One_Piece.png" width="1360" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid " src="img/paja.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item ">
+          <img class="d-block img-fluid" src="img/paja2.jpg" alt="Third slide">
+        </div>
       </div>
-      <div class="carousel-item">
-        <img class="d-block img-fluid" src="img/paja.jpg" alt="Second slide">
-      </div>
-      <div class="carousel-item">
-        <img class="d-block img-fluid" src="img/paja2.jpg" alt="Third slide">
-      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguente</span>
+      </a>
     </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Siguente</span>
-    </a>
   </div>
 
   <!--Inicio del menu de navegacion-->
@@ -63,109 +65,118 @@
           <a class="nav-item nav-link" href="#">Personajes</a>
           <a class="nav-item nav-link" href="login.html">Login</a>
         </div>
-        </div>
+      </div>
   </nav>
   <!--fin del menu-->
   <!-- card-->
   <div class="container">
-    <div class="card-deck mt-5 pt-5">
-      <div class="card">
-        <img class="card-img-top img-fluid" src="img/card1.jpg" alt="Mokey D Luffy">
-        <div class="card-body">
-          <h5 class="card-title">Mokey D Luffy</h5>
-          <p class="card-text text-justify">Luffy nació en la Villa Foosha. Seis años después de su nacimiento, se encontró con una banda de piratas liderados por un capitán pirata llamado "Pelirrojo" Shanks. Luffy se hizo amigo de la banda de piratas y desde ese momento, quería convertirse en un pirata también.</p>
-          <a href="#" class="btn btn-primary mb-4">Detalles</a>
+    <div class="row">
+      <div class="card-deck mt-5 pt-5">
+        <div class="card col-sm-12 col-md-4 col-xl-6  ">
+          <img class="card-img-top img-fluid" src="img/card1.jpg" alt="Mokey D Luffy">
+          <div class="card-body">
+            <h5 class="card-title">Mokey D Luffy</h5>
+            <p class="card-text text-justify">Luffy nació en la Villa Foosha. Seis años después de su nacimiento, se encontró con una banda de piratas liderados
+              por un capitán pirata llamado "Pelirrojo" Shanks. Luffy se hizo amigo de la banda de piratas y desde ese momento,
+              quería convertirse en un pirata también.</p>
+            <a href="#" class="btn btn-primary mb-4">Detalles</a>
+          </div>
+
         </div>
-        
-      </div>
-      <div class="card">
-        <img class="card-img-top img-fluid" src="img/card2.jpg" alt="Roronoa Zoro">
-        <div class="card-body">
-          <h5 class="card-title">Roronoa Zoro</h5>
-          <p class="card-text text-justify">Zoro es uno de los personajes físicamente más fuertes de la serie. Demuestra su fuerza cuando estaba luchando contra Daz Bones, levantó un edificio fácilmente a pesar de las heridas que tenía. Se le ve entrenando en el Thousand Sunny con pesas de toneladas de peso.  </p>
-          <a href="#" class="btn btn-primary mb-4">Detalles</a>
+        <div class="card col-sm-12 col-md-4">
+          <img class="card-img-top img-fluid" src="img/card2.jpg" alt="Roronoa Zoro">
+          <div class="card-body">
+            <h5 class="card-title">Roronoa Zoro</h5>
+            <p class="card-text text-justify">Zoro es uno de los personajes físicamente más fuertes de la serie. Demuestra su fuerza cuando estaba luchando
+              contra Daz Bones, levantó un edificio fácilmente a pesar de las heridas que tenía. Se le ve entrenando en el
+              Thousand Sunny con pesas de toneladas de peso. </p>
+            <a href="#" class="btn btn-primary mb-4">Detalles</a>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top img-fluid" src="img/card3.jpg" alt="Vinsmoke Sanji">
-        <div class="card-body">
-          <h5 class="card-title">Vinsmoke Sanji</h5>
-          <p class="card-text">es el cocinero de los Piratas de Sombrero de Paja y el tercer hijo de la familia Vinsmoke[9]. Es el quinto miembro de la tripulación, y el cuarto en unirse. Al haber nacido en el North Blue, fue el primer tripulante en no ser originario del East Blue</p>
-          <a href="#" class="btn btn-primary">Detalles</a>
+        <div class="card col-sm-12 col-md-4">
+          <img class="card-img-top img-fluid" src="img/card3.jpg" alt="Vinsmoke Sanji">
+          <div class="card-body">
+            <h5 class="card-title">Vinsmoke Sanji</h5>
+            <p class="card-text">es el cocinero de los Piratas de Sombrero de Paja y el tercer hijo de la familia Vinsmoke[9]. Es el quinto miembro
+              de la tripulación, y el cuarto en unirse. Al haber nacido en el North Blue, fue el primer tripulante en no
+              ser originario del East Blue</p>
+            <a href="#" class="btn btn-primary">Detalles</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
   <!-- fin card -->
   <!-- fin-->
-  <!--Formulario-->
-<section class="container my-5">
-  <h3 class="text-center text-uppercase">Formulario</h3>
-  <p class="text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam earum qui esse culpa. Sapiente excepturi veritatis dolorum, sunt expedita a, adipisci minima architecto consequuntur dolores porro pariatur ducimus non nostrum.</p>
-
-<form action="" class="form-inline justify-content-center flex-column flex-md-row">
-<div class="form-group my-2">
-  <label for="" class="mx-2">Nombre:</label>
-  <input type="text" placeholder="Ingrese su nombre" class="form-control">
-</div>
-<div class="form-group my-2">
- <label for="" class="mx-2">Email:</label>
- <input type="email" placeholder="@correo" class="form-control">
-</div>
-<div class="form-group mx-2 my-2 "> 
-  <input type="submit" class="bnt btn-danger">
-</div>
-</form>
-</section>
-  <!--fin formulario-->
   <!-- texto -->
   <section class="container ">
-    <p class="mt-5 text-center text-uppercase font-weight-bold font-italic  display-4">One piece</p>
-    <p class="text-justify mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <div class="row">
+    <p class="mt-5 text-center text-uppercase font-weight-bold font-italic  display-4 col-sm-12 col-md-12">One piece</p>
+    <p class="text-justify mt-5 col-sm-12 col-md-6 col-lg-12 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti. Lorem ipsum
       dolor sit amet consectetur adipisicing elit. Rerum nostrum rem voluptate quidem quia deserunt sequi omnis eaque voluptatum,
       modi nemo iste suscipit, inventore quibusdam. Numquam magni debitis odio incidunt! Lorem ipsum dolor sit amet consectetur
       adipisicing elit. Est, ratione exercitationem. Fugit possimus numquam sunt vero velit! Consectetur ducimus aliquid
       provident officiis veritatis, laudantium non maxime, similique accusantium a placeat?
     </p>
-    <p class=" bg-primary text-white text-justify w-25 float-left mr-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="  text-justify  col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti. Lorem ipsum
       dolor sit, amet consectetur adipisicing elit. Debitis eum voluptatibus quas odit accusamus dolor ullam quam maxime
       consequatur amet hic voluptatem eaque quibusdam odio, praesentium deserunt! Consectetur, eos assumenda. Lorem ipsum
       dolor sit amet, consectetur adipisicing elit. Dicta atque quod fuga vel tempore hic saepe corrupti, officiis alias
       animi aliquam illo aperiam totam quae, inventore ratione fugit debitis ipsam!
     </p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
-    <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
+    <p class="text-justify col-sm-12 col-md-6 col-lg-12">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius facere eum ad corrupti harum nemo maxime magnam maiores
       id, officiis placeat assumenda quasi, aspernatur voluptatibus architecto ipsam nisi veritatis deleniti.</p>
+    </div>
   </section>
+  <div class="card p-3 mb-2 bg-inverse text-white">
+    <div class="card-header bg-inverse text-white">
+      Featured
+    </div>
+    <form action="" class="form-inline justify-content-center flex-column flex-md-row">
+      <div class="form-group my-2">
+        <label for="" class="mx-2">Nombre:</label>
+        <input type="text" placeholder="Ingrese su nombre" class="form-control">
+      </div>
+      <div class="form-group my-2">
+        <label for="" class="mx-2">Email:</label>
+        <input type="email" placeholder="@correo" class="form-control">
+      </div>
+      <div class="form-group mx-2 my-2 ">
+        <input type="submit" class="bnt btn-danger">
+      </div>
+    </form>
+  </div>
+  </div>
 
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n"
